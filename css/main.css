@@ -1,0 +1,66 @@
+html{
+    scroll-behavior: smooth;
+}
+#headerLeft{
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/06/23/04/homberg-1959229_960_720.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+#headerRight {
+    background: url('https://cdn.pixabay.com/photo/2016/01/19/17/48/woman-1149911_960_720.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+#scroller {
+    position:fixed;
+    z-index: 2;
+    height: 100vh;
+    font-size: 20px;
+
+}
+
+#scroller span i {
+    color: cyan;
+    transition: 500ms color ease-in,
+     500ms font-size ease-in;
+}
+
+#scroller span i:hover{
+    font-size: 50px;
+    color:magenta;
+}
+
+#qoute,
+#contact {
+    height: 100vh;
+}
+#customMargin{
+    margin: 120px 0 120px 0; 
+    margin-bottom: 0;
+}
+
+.raj{
+    background:url("http://www.webcoderskull.com/img/team1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#background{
+    background-image: url("/background.png");
+    background-size: cover;
+    height: 100vh;
+}
+.loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 88888888;
+}
+
+
+.loader-container{
+    height:100vh;
+    background-color: black;
+}
